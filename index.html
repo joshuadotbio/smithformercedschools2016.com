@@ -1,37 +1,12 @@
 ---
 layout: default
 ---
-<div class="white layer">
-  <div class="row small-collapse" data-equalizer data-equalize-on="large">
-    <div class="small-12 large-4 columns">
-      <div class="card" data-equalizer-watch>
-        <img class="thumbnail" src="/images/selfie.jpg"/>
-      </div>
-    </div>
-    <div class="small-12 large-4 columns">
-      <div class="card" data-equalizer-watch>
-        {% include social-buttons.html %}
-      </div>
-    </div>
-    <div class="small-12 large-4 columns">
-      <div class="card" data-equalizer-watch>
-        <h1>Yo!</h1>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="layer">
-  <div class="row small-collapse medium-uncollapse" data-equalizer data-equalize-on="large">
-    {% for post in site.posts %}
-    <div class="small-12 large-4 columns">
-      <article class="card card--post" data-equalizer-watch>
-        <h1 class="small-heading"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p>{{ post.description }}</p>
-        <div class="read-more">
-          <a href="{{ post.url }}" class="hollow expanded button right-icon">Read This<i class="fa fa-arrow-right"></i></a>
-        </div>
-      </article>
-    </div>
-    {% endfor %}
+<div class="splash">
+  <div class="row">
+    <article class="splash-inner small-12 medium-6 large-4 columns">
+      <h2>Thank you Merced for a fantastic campaign!</h2>
+      <p>Please stay tuned to our Facebook page for updates.</p>
+      <a href="https://www.facebook.com/Shane-Smith-for-Merced-City-Schools-2016-1759825587593109" class="button expanded shadow-1 right-icon">Facebook Page<i class="fa fa-facebook"></i></a>
+    </article>
   </div>
 </div>

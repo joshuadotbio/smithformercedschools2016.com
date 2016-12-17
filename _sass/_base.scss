@@ -1,44 +1,17 @@
 body {
-  background: #eee;
-  color: $dark-text-color;
-  font-family: sans-serif;
-  font-weight: 300;
+  background: url('/images/honor.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 
-.layer {
-  padding: 5em 0;
-}
-
-.card {
-  @extend %clearfix;
-  position: relative;
-  display: block;
-  background: white;
-
-  &.card--post {
-    @extend .shadow-2;
-    padding: 2em 1em 4.53em 1em;
-    margin-bottom: 2em;
-  }
-
-  &.card--black {
-    background: #222;
-    color: white;
-  }
-}
-
-code {
-  display: block;
-  overflow-x: scroll;
-}
-
-.read-more {
+.splash {
   position: absolute;
-  right: 1em;
-  left: 1em;
-  bottom: 2em;
+  top: 25%;
+  width: 100%;
+}
 
-  .button {
-    margin-bottom: 0;
-  }
+.splash-inner {
+  @extend .shadow-2;
+  background: white;
+  padding: 2em;
 }

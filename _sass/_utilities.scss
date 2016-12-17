@@ -6,46 +6,6 @@
   }
 }
 
-.padded {
-  padding: 1em;
-}
-
-.with-separator {
-  position: relative;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-
-  &:after {
-    $width: 100%;
-    $thickness: 1px;
-    $color: #ccc;
-
-    content: "";
-    display: block;
-    position: absolute;
-    text-align: center;
-    width: $width;
-    bottom: -1 * $thickness;
-    left: 0;
-    border-bottom: $thickness solid $color;
-  }
-}
-
-.subtle-link {
-  color: #222;
-}
-
-.white {
-  background: white;
-}
-.black {
-  background: black;
-  color: white;
-}
-.green {
-  background: green;
-}
-
 .shadow-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -71,19 +31,4 @@
     float: right;
     margin-left: 0.5em;
   }
-}
-
-.left-icon {
-  // use with .button
-  text-align: right;
-  @extend %clearfix;
-
-  .fa {
-    float: left;
-    margin-right: 0.5em;
-  }
-}
-
-.small-heading {
-  font-size: 1.5em;
 }
