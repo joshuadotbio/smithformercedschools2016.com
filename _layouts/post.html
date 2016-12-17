@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="row small-collapse medium-uncollapse">
+  <div class="small-12 large-8 large-centered columns">
+    <article class="card padded white shadow-2">
+      <h1>{{ page.title }}</h1>
+      {{ page.content }}
+    </article>
+  </div>
+  <div class="small-12 large-8 large-centered columns">
+    <article class="card white padded shadow-2">
+      <div class="media-object">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <a href="/"><img src="/images/selfie-small.jpg"></a>
+          </div>
+        </div>
+        <div class="media-object-section">
+          <p>Written by Joshua Gonzales.</p>
+          <p>Published on {{ page.date | date: "%Y %B %-d"}}.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

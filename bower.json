@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "authors": [
+    "Joshua Gonzales <j@joshua.bio>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.0",
+    "normalize-css": "^4.1.0",
+    "compass-sass-mixins": "*"
+  },
+  "devDependencies": {}
+}

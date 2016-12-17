@@ -1,0 +1,44 @@
+body {
+  background: #eee;
+  color: $dark-text-color;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.layer {
+  padding: 5em 0;
+}
+
+.card {
+  @extend %clearfix;
+  position: relative;
+  display: block;
+  background: white;
+
+  &.card--post {
+    @extend .shadow-2;
+    padding: 2em 1em 4.53em 1em;
+    margin-bottom: 2em;
+  }
+
+  &.card--black {
+    background: #222;
+    color: white;
+  }
+}
+
+code {
+  display: block;
+  overflow-x: scroll;
+}
+
+.read-more {
+  position: absolute;
+  right: 1em;
+  left: 1em;
+  bottom: 2em;
+
+  .button {
+    margin-bottom: 0;
+  }
+}

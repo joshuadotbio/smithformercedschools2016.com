@@ -1,0 +1,22 @@
+{
+  "name": "jekyll-starter",
+  "version": "1.0.0",
+  "description": "A starting point for Jekyll websites",
+  "author": "Joshua Gonzales <j@joshua.bio>",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "cssnano": "^3.9.1",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-uncss": "^1.0.6"
+  }
+}
